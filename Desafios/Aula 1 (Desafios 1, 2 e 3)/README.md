@@ -1,4 +1,4 @@
-<h2>Desafios 1, 2 e 3</h2>
+## 🧩 Desafios 1, 2 e 3
 
 <table>
   <tr>
@@ -14,15 +14,16 @@
       <strong>Desafio 3</strong><br>
       <img src="funcionamento/Desafio3.png" width="300">
     </td>
-   
   </tr>
 </table>
 
-## 🧩 Desafio 1
+---
+
+### 🧩 Desafio 1
 
 O Desafio 1 foca na criação de uma interface utilizando **formas geométricas coloridas** (retângulos) e no uso adequado das estruturas de layout do **SwiftUI**: `VStack`, `HStack` e `Spacer`.
 
-### ✨ Funcionalidades principais:
+#### ✨ Funcionalidades principais
 
 - Interface composta por **4 retângulos coloridos**:
   - Vermelho (superior esquerdo)
@@ -31,34 +32,46 @@ O Desafio 1 foca na criação de uma interface utilizando **formas geométricas 
   - Amarelo (inferior direito)
 - Layout com duas `HStacks` (uma no topo, uma embaixo), organizadas verticalmente por uma `VStack`.
 - Uso de `Spacer()` para criar **espaçamento automático e responsivo** entre os elementos.
+- Aplicação prática do posicionamento e estruturação visual no SwiftUI.
 
+---
 
-## 🧩 Desafio 2
+### 🧩 Desafio 2
 
-Este desafio apresenta uma interface que combina imagem e texto de forma organizada usando o `HStack` e `VStack` do SwiftUI.
+Neste desafio, o foco está na construção de uma **interface visual agradável e organizada** combinando imagem e texto com o uso de `HStack` e `VStack`.
 
-### ✨ Funcionalidades:
-- Uma imagem circular do caminhão (`truck`).
-- Um grupo de três textos dispostos verticalmente com cores distintas:
+#### ✨ Funcionalidades principais
+
+- Uma imagem circular do caminhão (`truck`), redimensionada e ajustada com `clipShape(Circle())`.
+- Um conjunto de três `Text` com cores diferentes, organizados verticalmente:
   - **"HackaTruck"** em vermelho.
   - **"77 Universidades"** em azul.
   - **"5 regiões do Brasil"** em amarelo.
+- Layout responsivo com `HStack(spacing:)` para espaçamento entre imagem e texto.
 
-## 🧩 Desafio 3
+#### 🧠 Conceitos aplicados
 
-O Desafio 3 propõe a criação de uma interface interativa com entrada de dados e exibição personalizada utilizando SwiftUI.
+- Uso de `Image()`, `VStack`, `HStack` e estilização com `.foregroundStyle`.
+- Prática de alinhamento horizontal e vertical no SwiftUI.
 
-### ✨ Funcionalidades principais:
+---
 
-- **Imagem de fundo** com opacidade reduzida, ocupando toda a tela.
-- **Mensagem de boas-vindas** personalizada com o nome digitado pelo usuário.
-- **Campo de texto (`TextField`)** para digitar o nome.
-- **Imagem do logo HackaTruck** redimensionada.
-- **Botão "Entrar"** que exibe um **alerta** com o nome informado.
+### 🧩 Desafio 3
 
-### 🧠 Conceitos aplicados:
+Este desafio propõe uma **interface interativa e personalizada**, que responde ao input do usuário de forma visual e textual.
 
-- `@State` para armazenar e monitorar o nome e o estado do alerta.
-- `ZStack` para sobrepor elementos sobre a imagem de fundo.
-- `Spacer()` para espaçamento flexível entre os componentes.
-- Uso de modificadores como `.resizable()`, `.scaledToFill()`, `.opacity()` e `.alert`.
+#### ✨ Funcionalidades principais
+
+- **Imagem de fundo** do caminhão com opacidade ajustada (`.opacity(0.5)`) ocupando toda a tela.
+- Texto com mensagem de **boas-vindas personalizada**, usando o nome digitado.
+- Campo `TextField` para o usuário digitar o nome.
+- Imagem do logo **HackaTruck** redimensionada.
+- Botão **"Entrar"** que, ao ser pressionado, exibe um alerta de saudação com o nome informado.
+
+#### 🧠 Conceitos aplicados
+
+- `@State` para controle do nome e do estado do alerta.
+- `ZStack` para construção de camadas visuais (imagem de fundo + conteúdo).
+- `Spacer()` para espaçamento vertical entre os elementos.
+- `Button` com ação que ativa `Alert`.
+- Modificadores visuais como `.resizable()`, `.scaledToFit()`, `.alert()` e `.padding()`.
