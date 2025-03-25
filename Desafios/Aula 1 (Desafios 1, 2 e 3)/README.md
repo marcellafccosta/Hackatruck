@@ -14,5 +14,6 @@
       <strong>Desafio 3</strong><br>
       <img src="funcionamento/Desafio3.png" width="300">
     </td>
+   
   </tr>
 </table>
