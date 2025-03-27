@@ -1,4 +1,3 @@
-## 🧩 Desafios 1, 2 e 3
 
 <table>
   <tr>
@@ -12,7 +11,7 @@
     </td>
     <td align="center">
       <strong>Desafio 3</strong><br>
-      <img src="funcionamento/Desafio3.png" width="300">
+      <img src="funcionamento/desafio3.gif" width="200">
     </td>
   </tr>
 </table>
