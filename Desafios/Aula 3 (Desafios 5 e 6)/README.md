@@ -1,3 +1,19 @@
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Desafio 5</strong><br>
+      <img src="desafio-5.gif" width="300">
+    </td>
+    <td align="center">
+      <strong>Desafio 6</strong><br>
+      <img src="desafio-6.gif" width="300">
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## 🧩 Desafio 5
 
